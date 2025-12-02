@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Супер Мемогенератор 😎</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Мемогенератор</h1>
+    <p>Загрузи картинку, добавь текст сверху и снизу — получи крутой мем!</p>
+
+    <div class="controls">
+      <input type="file" id="uploadImage" accept="image/*">
+      <input type="text" id="topInput" placeholder="Текст сверху">
+      <input type="text" id="bottomInput" placeholder="Текст снизу">
+      <button id="generateBtn">Сгенерировать мем</button>
+      <button id="downloadBtn">Скачать мем</button>
+    </div>
+
+    <div id="memeContainer">
+      <canvas id="memeCanvas"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
